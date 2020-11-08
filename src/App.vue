@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand-lg navbar-dark bg">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img src="/images/logo.jpg">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,15 +20,21 @@
             <a class="nav-link diet" href="diet.html">Diet</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link product" href="/">Product</a>
+            <a class="nav-link service" href="service.html">Service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link service" href="service.html">Service</a>
+            <a class="nav-link manage" href="manage.html">Manage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link product" href="product.html">Product</a>
           </li>
         </ul>
       </div>
     </nav>
 
+    <div>
+      <router-link to="/"/>
+    </div>
     <div id="menu">
       <div class ="announcement"> 
         <h4>2020-11-07 ~</h4>
