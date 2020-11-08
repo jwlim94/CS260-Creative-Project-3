@@ -26,7 +26,7 @@
             <a class="nav-link manage" href="manage.html">Manage</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link product" to="/">Product</router-link>
+            <router-link class="nav-link product" to="/product.html">Product</router-link>
           </li>
         </ul>
       </div>
