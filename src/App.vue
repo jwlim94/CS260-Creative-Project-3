@@ -26,15 +26,12 @@
             <a class="nav-link manage" href="manage.html">Manage</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link product" href="product.html">Product</a>
+            <router-link class="nav-link product" to="product.html">Product</router-link>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div>
-      <router-link to="/"/>
-    </div>
     <div id="menu">
       <div class ="announcement"> 
         <h4>2020-11-07 ~</h4>
